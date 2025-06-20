@@ -17,5 +17,7 @@ public class Ex1 {
             (numero + 1),
             (numero - 1)
         );
+
+        scan.close();
      }
 }
