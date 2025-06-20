@@ -8,10 +8,10 @@ public class Ex5 {
     
         Scanner scan = new Scanner(System.in);
     
-        System.out.println("Digite o numero de horas trabalhadas no mês");
+        System.out.println("Digite o numero de horas trabalhadas no mês (separe a casa decimal com ,)");
         horas = scan.nextFloat();
         
-        System.out.println("Digite o valor do quanto você ganha por hora");
+        System.out.println("Digite o valor do quanto você ganha por hora (separe a casa decimal com ,)");
         salario = scan.nextDouble();
 
         System.out.printf("você recebeu %.2f reais de salario esse mês", (horas * salario));
